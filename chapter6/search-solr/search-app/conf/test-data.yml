@@ -1,0 +1,8 @@
+Car(c1):
+  brand: BMW
+  type: 320
+
+User(u1):
+  name: alex
+  shortDescription: Has lived in a big house
+  twitter: spinscale

@@ -1,0 +1,9 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+in.seconds = in %s second%s
+in.minutes = in %s minute%s
+in.hours   = in %s hour%s
+in.days    = in %s day%s
+in.months  = in %s month%s
+in.years   = in %s year%s

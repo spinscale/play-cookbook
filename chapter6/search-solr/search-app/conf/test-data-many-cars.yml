@@ -1,0 +1,51 @@
+Car(c2):
+  brand: VW
+  type: Jetta
+
+Car(c3):
+  brand: Lamborghini
+  type: Gallardo
+
+Car(c4):
+  brand: Ferrari
+  type: Testarossa
+
+Car(c5):
+  brand: Fiat
+  type: Punto
+
+Car(c6):
+  brand: Audi
+  type: A6
+
+Car(c7):
+  brand: Toyota
+  type: Prius
+
+Car(c8):
+  brand: Mazda
+  type: 6
+
+Car(c9):
+  brand: Saab
+  type: 9-5
+
+Car(c10):
+  brand: Opel
+  type: Zafira
+
+Car(c11):
+  brand: VW
+  type: Sharan
+
+Car(c12):
+  brand: Peugeot
+  type: 207
+
+Car(c13):
+  brand: Renault
+  type: Laguna
+
+Car(c14):
+  brand: Kia
+  type: Pro'Ceed

@@ -1,0 +1,35 @@
+#{extends 'main.html' /}
+#{set title:'Gallery' /}
+#{set 'moreStyles'}
+<style type="text/css">
+  @import "http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojox/image/resources/image.css";
+  @import "http://ajax.googleapis.com/ajax/libs/dojo/1.5/dijit/themes/tundra/tundra.css";
+</style>
+#{/set}
+#{set 'moreScripts'}
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js" djConfig="parseOnLoad:true" ></script>
+<script type="text/javascript">
+  dojo.require("dojox.image.Gallery");
+  dojo.require("dojo.data.ItemFileReadStore");
+</script>
+#{/set}
+
+#{form @Application.storeImage(), enctype:'multipart/form-data'}
+<div>Title: <input type="text" name="description"></div>
+<div>File: <input type="file" name="image"></div>
+<div><input type="submit" value="Send"></div>
+#{/form}
+
+<h1>The gallery</h1>
+
+<div jsId="imageItemStore" dojoType="dojo.data.ItemFileReadStore" url="@{Application.getImages()}"></div>
+
+<div id="gallery1" dojoType="dojox.image.Gallery">
+  <script type="dojo/connect">
+    var itemNameMap = {
+      imageThumbAttr: "thumb",
+      imageLargeAttr: "large"
+    };
+    this.setDataStore(imageItemStore, {}, itemNameMap);
+  </script>
+</div>

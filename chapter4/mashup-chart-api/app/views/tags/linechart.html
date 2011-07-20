@@ -1,0 +1,27 @@
+%{
+width = _width?:300
+height = _height?:225
+title = _title?:"No title"
+colors = _colors?:"3D7930"
+
+out.print('<img src="http://chart.apis.google.com/chart?')
+out.print('cht=lc')
+
+String labelX = _labelX.join("|");
+String labelY = _labelY.join("|");
+out.println("&chxl=0:|"+ labelX + "|1:|" + labelY);
+
+out.print('&chs=' + width + 'x' + height)
+out.print('&chtt=' + title)
+out.print('&chco=' + colors)
+dataEncoded = googlechart.DataEncoder.encode(_data)
+out.print('&chd=e:' + dataEncoded)
+
+maxValue = googlechart.DataEncoder.getMax(_data)
+out.print('&chxr=0,0,' + maxValue)
+out.print('&chxt=x,y')
+out.print("&chls=1,6,3");
+
+out.print('">')
+
+}%

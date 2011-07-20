@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+    - play
+    - play -> depmodule 1.0

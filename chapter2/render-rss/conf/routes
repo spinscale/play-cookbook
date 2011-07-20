@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+GET     /feed/posts.rss                         Application.renderRss
+GET     /feed/posts.rss2                        Application.renderRss2
+GET     /feed/posts.atom                        Application.renderAtom
+GET     /post/{id}                              Application.showPost
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}

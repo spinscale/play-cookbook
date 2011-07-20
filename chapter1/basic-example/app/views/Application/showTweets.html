@@ -1,0 +1,6 @@
+#{extends 'main.html' /}
+#{set 'title'}${user.login} tweets#{/set}
+
+#{list tweets, as:'tweet'}
+<div><h3>${tweet.content}</h3> by ${tweet.user.login} at <i>${tweet.postedAt.pretty()}</i></h3></div>
+#{/list}

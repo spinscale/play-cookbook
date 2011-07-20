@@ -1,0 +1,73 @@
+#!/usr/bin/perl
+
+use strict;
+use Munin::Plugin;
+use LWP::UserAgent;
+use Digest::HMAC_SHA1;
+use JSON;
+
+my $secret = $ENV{'secret'};
+#my $secret = 'u7le8VFdvW26TVMQMeb6ZGG695wbJqLGlPAvgdnB0aIN6mQjYskOFFdgsU9GVhA9';
+my $hmac = Digest::HMAC_SHA1->new($secret);
+$hmac->add('@status');
+my $digest = $hmac->hexdigest;
+
+my $ua = LWP::UserAgent->new;
+$ua->timeout(10);
+$ua->default_header( 'Authorization' => "$digest" );
+
+my $r = $ua->get('http://192.168.0.2:9000/@status.json');
+
+my $json = new JSON->decode($r->content);
+
+if ( defined($ARGV[0]) and $ARGV[0] eq "config" ) {
+
+	foreach my $controller(@{$json->{"play.CorePlugin"}->{"monitors"}}) {
+		my $name = $controller->{"name"};
+		if ($name !~ /\(\)/) {
+			next;
+		}
+		$name =~ s/^(.*)\(\).*/$1/;
+		my $classMethod = $name;
+		$name =~ s/\./_/;
+		
+		print "multigraph runtimes_$name\n";
+		print "graph_title Play Controller runtimes $classMethod\n";
+		print "graph_vlabel ms\n";
+		print "graph_scale no\n";
+		print "graph_category play\n";
+		print "graph_info Statistics about min/max/avg controller rates\n";
+		print "graph_args -l 0\n";
+		
+		print $name."_min.label $name min\n";
+		print $name."_min.draw LINE2\n";
+		print $name."_max.label $name max\n";
+		print $name."_max.draw LINE2\n";
+		print $name."_avg.label $name avg\n";
+		print $name."_avg.draw LINE2\n";
+	}
+#	print "controller_hits.label Controller hits"."\n";
+#	print "controller_hits".$name.".avg.draw LINE1\n";
+
+} else {
+
+	foreach my $controller(@{$json->{"play.CorePlugin"}->{"monitors"}}) {
+		my $name = $controller->{"name"};
+		if ($name !~ /\(\)/) {
+			next;
+		}
+		$name =~ s/^(.*)\(\).*/$1/;
+		$name =~ s/\./_/;
+
+		my $hits = $controller->{"hits"};
+		my $avg = $controller->{"avg"};
+		my $min = $controller->{"min"};
+		my $max = $controller->{"max"};
+
+		print "multigraph runtimes_$name\n";
+            	printf $name."_min.value %d\n", $min;
+            	printf $name."_max.value %d\n", $max;
+            	printf $name."_avg.value %d\n", $avg;
+	}
+}
+

@@ -1,0 +1,229 @@
+00:22:17,723 INFO  ~ Starting /Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter6/stylus/app-stylus
+00:22:17,726 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.stylus)
+00:22:17,726 INFO  ~ Module stylus is available (/Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter6/stylus/app-stylus/../stylus)
+00:22:17,761 INFO  ~ Precompiling ...
+00:22:20,652 INFO  ~ Loading stylus plugin
+00:22:20,652 INFO  ~ Application 'app-stylus' is now started !
+00:22:20,719 INFO  ~ Listening for HTTP on port 9000 ...
+00:22:25,808 INFO  ~ MODE IS PROD
+00:22:25,962 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:26,938 INFO  ~ MODE IS PROD
+00:22:26,939 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:31,369 INFO  ~ MODE IS PROD
+00:22:31,369 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:31,968 INFO  ~ MODE IS PROD
+00:22:31,968 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,358 INFO  ~ MODE IS PROD
+00:22:37,358 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,370 INFO  ~ MODE IS PROD
+00:22:37,370 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,379 INFO  ~ MODE IS PROD
+00:22:37,380 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,389 INFO  ~ MODE IS PROD
+00:22:37,389 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,398 INFO  ~ MODE IS PROD
+00:22:37,398 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,408 INFO  ~ MODE IS PROD
+00:22:37,408 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,417 INFO  ~ MODE IS PROD
+00:22:37,417 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,426 INFO  ~ MODE IS PROD
+00:22:37,426 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,435 INFO  ~ MODE IS PROD
+00:22:37,435 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,444 INFO  ~ MODE IS PROD
+00:22:37,444 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,453 INFO  ~ MODE IS PROD
+00:22:37,453 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,462 INFO  ~ MODE IS PROD
+00:22:37,462 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,471 INFO  ~ MODE IS PROD
+00:22:37,471 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,480 INFO  ~ MODE IS PROD
+00:22:37,481 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,489 INFO  ~ MODE IS PROD
+00:22:37,490 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,498 INFO  ~ MODE IS PROD
+00:22:37,498 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,507 INFO  ~ MODE IS PROD
+00:22:37,507 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,517 INFO  ~ MODE IS PROD
+00:22:37,517 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,525 INFO  ~ MODE IS PROD
+00:22:37,526 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,534 INFO  ~ MODE IS PROD
+00:22:37,535 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,544 INFO  ~ MODE IS PROD
+00:22:37,544 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,553 INFO  ~ MODE IS PROD
+00:22:37,553 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,562 INFO  ~ MODE IS PROD
+00:22:37,562 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,571 INFO  ~ MODE IS PROD
+00:22:37,571 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,581 INFO  ~ MODE IS PROD
+00:22:37,581 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,590 INFO  ~ MODE IS PROD
+00:22:37,591 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,599 INFO  ~ MODE IS PROD
+00:22:37,599 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,609 INFO  ~ MODE IS PROD
+00:22:37,609 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,619 INFO  ~ MODE IS PROD
+00:22:37,619 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,628 INFO  ~ MODE IS PROD
+00:22:37,628 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,637 INFO  ~ MODE IS PROD
+00:22:37,637 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,646 INFO  ~ MODE IS PROD
+00:22:37,646 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,655 INFO  ~ MODE IS PROD
+00:22:37,655 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,664 INFO  ~ MODE IS PROD
+00:22:37,664 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,673 INFO  ~ MODE IS PROD
+00:22:37,673 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,682 INFO  ~ MODE IS PROD
+00:22:37,682 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,691 INFO  ~ MODE IS PROD
+00:22:37,691 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,699 INFO  ~ MODE IS PROD
+00:22:37,699 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,708 INFO  ~ MODE IS PROD
+00:22:37,709 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,718 INFO  ~ MODE IS PROD
+00:22:37,718 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,728 INFO  ~ MODE IS PROD
+00:22:37,728 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,737 INFO  ~ MODE IS PROD
+00:22:37,737 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,747 INFO  ~ MODE IS PROD
+00:22:37,747 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,756 INFO  ~ MODE IS PROD
+00:22:37,756 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,765 INFO  ~ MODE IS PROD
+00:22:37,765 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,773 INFO  ~ MODE IS PROD
+00:22:37,774 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,782 INFO  ~ MODE IS PROD
+00:22:37,782 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,791 INFO  ~ MODE IS PROD
+00:22:37,791 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,800 INFO  ~ MODE IS PROD
+00:22:37,800 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,808 INFO  ~ MODE IS PROD
+00:22:37,808 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,817 INFO  ~ MODE IS PROD
+00:22:37,817 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,825 INFO  ~ MODE IS PROD
+00:22:37,825 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,834 INFO  ~ MODE IS PROD
+00:22:37,834 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,842 INFO  ~ MODE IS PROD
+00:22:37,842 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,851 INFO  ~ MODE IS PROD
+00:22:37,851 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,860 INFO  ~ MODE IS PROD
+00:22:37,860 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,868 INFO  ~ MODE IS PROD
+00:22:37,868 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,877 INFO  ~ MODE IS PROD
+00:22:37,877 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,886 INFO  ~ MODE IS PROD
+00:22:37,886 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,895 INFO  ~ MODE IS PROD
+00:22:37,895 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,903 INFO  ~ MODE IS PROD
+00:22:37,904 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,912 INFO  ~ MODE IS PROD
+00:22:37,912 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,921 INFO  ~ MODE IS PROD
+00:22:37,921 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,929 INFO  ~ MODE IS PROD
+00:22:37,929 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,940 INFO  ~ MODE IS PROD
+00:22:37,941 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,950 INFO  ~ MODE IS PROD
+00:22:37,951 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,960 INFO  ~ MODE IS PROD
+00:22:37,960 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,969 INFO  ~ MODE IS PROD
+00:22:37,969 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,978 INFO  ~ MODE IS PROD
+00:22:37,978 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,987 INFO  ~ MODE IS PROD
+00:22:37,987 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:37,995 INFO  ~ MODE IS PROD
+00:22:37,996 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,004 INFO  ~ MODE IS PROD
+00:22:38,004 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,012 INFO  ~ MODE IS PROD
+00:22:38,013 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,022 INFO  ~ MODE IS PROD
+00:22:38,022 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,030 INFO  ~ MODE IS PROD
+00:22:38,030 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,039 INFO  ~ MODE IS PROD
+00:22:38,039 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,048 INFO  ~ MODE IS PROD
+00:22:38,048 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,056 INFO  ~ MODE IS PROD
+00:22:38,056 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,065 INFO  ~ MODE IS PROD
+00:22:38,065 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,074 INFO  ~ MODE IS PROD
+00:22:38,074 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,083 INFO  ~ MODE IS PROD
+00:22:38,083 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,092 INFO  ~ MODE IS PROD
+00:22:38,092 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,100 INFO  ~ MODE IS PROD
+00:22:38,100 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,109 INFO  ~ MODE IS PROD
+00:22:38,109 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,118 INFO  ~ MODE IS PROD
+00:22:38,118 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,126 INFO  ~ MODE IS PROD
+00:22:38,126 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,135 INFO  ~ MODE IS PROD
+00:22:38,135 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,143 INFO  ~ MODE IS PROD
+00:22:38,143 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,152 INFO  ~ MODE IS PROD
+00:22:38,152 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,160 INFO  ~ MODE IS PROD
+00:22:38,160 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,169 INFO  ~ MODE IS PROD
+00:22:38,169 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,177 INFO  ~ MODE IS PROD
+00:22:38,178 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,186 INFO  ~ MODE IS PROD
+00:22:38,187 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,195 INFO  ~ MODE IS PROD
+00:22:38,195 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,204 INFO  ~ MODE IS PROD
+00:22:38,204 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,212 INFO  ~ MODE IS PROD
+00:22:38,212 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,221 INFO  ~ MODE IS PROD
+00:22:38,221 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,230 INFO  ~ MODE IS PROD
+00:22:38,230 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,238 INFO  ~ MODE IS PROD
+00:22:38,239 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+00:22:38,247 INFO  ~ MODE IS PROD
+00:22:38,248 INFO  ~ Adding to cache with key stylusPlugin-test.styl for one hour
+08:19:56,487 ERROR ~ 
+
+@65pg6nn33
+Trying to flush cookies
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+play.exceptions.UnexpectedException: Unexpected Error
+	at play.server.PlayHandler.serve500(PlayHandler.java:672)
+	at Invocation.Message Received(Play!)
+Caused by: java.lang.NullPointerException
+	at play.server.PlayHandler.parseRequest(PlayHandler.java:529)
+	... 1 more

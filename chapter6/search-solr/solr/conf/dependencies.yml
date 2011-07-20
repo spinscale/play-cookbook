@@ -1,0 +1,15 @@
+self: play -> solr $version
+
+require:
+    - org.apache.solr -> solr-solrj 3.1.0:
+       transitive: false
+    - commons-httpclient -> commons-httpclient 3.1:
+        transitive: false
+    - org.codehaus.woodstox -> wstx-asl 3.2.7
+    - stax -> stax-api 1.0.1
+
+#       exclude:
+#         - commons-codec -> commons-codec
+#         - commons-io -> commons-io
+#         - commons-fileupload -> commons-fileupload
+#         - org.slf4j -> slf4j-api

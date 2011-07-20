@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<h1>Products</h1>
+
+#{list products, as:'product'}
+<div>
+	<h2>${product.name}</h2>
+	sold by ${product.merchant.name} added on ${product.createdAt}
+	<div>${product.description}</div>
+</div>
+#{/list}

@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<h1>Logged in as ${session.username}</h1>
+
+<div>
+Go to #{a @Application.index()}index#{/a}
+<br>
+Go to #{a @Application.admin()}admin#{/a}
+</div>
+
+#{a @Secure.logout()}Logout#{/a}

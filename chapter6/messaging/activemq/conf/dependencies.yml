@@ -1,0 +1,5 @@
+self: play -> activemq $version
+
+require:
+    - org.apache.activemq -> activemq-all 5.4.2
+

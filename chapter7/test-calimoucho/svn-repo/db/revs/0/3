@@ -1,0 +1,65 @@
+PLAIN
+K 3
+app
+V 18
+dir f-1.0.r1/34431
+K 4
+conf
+V 19
+dir 10-1.0.r1/35300
+K 3
+lib
+V 19
+dir 18-1.0.r1/35437
+K 6
+public
+V 19
+dir 19-1.0.r1/37037
+K 4
+test
+V 18
+dir 4-1.0.r1/32120
+END
+ENDREP
+id: 2-1.0.r3/185
+type: dir
+pred: 2-1.0.r2/424
+count: 2
+text: 3 0 172 172 501b067ebd295cc7d8fea0886e94aa98
+cpath: /test-svn/trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 16
+dir 2-1.0.r3/185
+END
+ENDREP
+id: 0-1.0.r3/378
+type: dir
+pred: 0-1.0.r2/621
+count: 2
+text: 3 329 36 36 3df08d8f0ef5bfa7b4e866ed20495bd3
+cpath: /test-svn
+copyroot: 0 /
+
+PLAIN
+K 8
+test-svn
+V 16
+dir 0-1.0.r3/378
+END
+ENDREP
+id: 0.0.r3/568
+type: dir
+pred: 0.0.r2/813
+count: 3
+text: 3 516 39 39 b3102714cd1105ba8768cded9c59415f
+cpath: /
+copyroot: 0 /
+
+2-2.0.r2/29 delete-file false false /test-svn/trunk/README
+
+
+568 694

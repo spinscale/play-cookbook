@@ -1,0 +1,10 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{loginStatus /}
+
+#{form @Application.login()}
+<input type="text" name="login">
+<input type="pass" name="password">
+<input type="submit" value="Login"">
+#{/form}

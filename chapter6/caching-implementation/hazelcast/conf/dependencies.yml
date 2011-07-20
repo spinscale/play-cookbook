@@ -1,0 +1,8 @@
+self: play -> hazelcast 0.1
+
+require:
+    - play
+    - com.hazelcast -> hazelcast-client 1.9.3.1:
+        transitive: false
+    - com.hazelcast -> hazelcast 1.9.3.1:
+        transitive: false

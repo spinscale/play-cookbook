@@ -1,0 +1,4 @@
+self: play -> registration
+
+require:
+    - play

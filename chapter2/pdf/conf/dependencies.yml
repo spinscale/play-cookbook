@@ -1,0 +1,4 @@
+require:
+    - play
+    - org.apache.xmlgraphics -> fop 1.0
+

@@ -1,0 +1,7 @@
+Hey there...
+
+a very warm welcome.
+
+We need you to complete your registration at
+
+@@{registration.Registration.confirm(registration.uuid)}

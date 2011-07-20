@@ -1,0 +1,15 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+#{set 'moreStyles' }
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0 Feed" href="@@{Application.renderRss2()}" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0 Feed" href="@@{Application.renderRss()}" />
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="@@{Application.renderAtom()}" />
+#{/set}
+
+#{list posts, as:'post'}
+<div>
+<h1>#{a @Application.showPost(post.id)}${post.title}#{/a}</h1><br />
+by ${post.author} at ${post.createdAt.format()}
+<div>${post.content.raw()}</div>
+</div>
+#{/list}

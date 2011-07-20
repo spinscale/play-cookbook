@@ -1,0 +1,5 @@
+20 Jul 2011 22:00:30,039 INFO  ~ Starting /Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter5/dependencies/dep-app
+20 Jul 2011 22:00:30,042 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.depmodule)
+20 Jul 2011 22:00:30,043 INFO  ~ Module depmodule is available (/Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter5/dependencies/dep-app/../depmodule)
+20 Jul 2011 22:00:30,552 WARN  ~ You're running Play! in DEV mode
+20 Jul 2011 22:00:30,661 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...

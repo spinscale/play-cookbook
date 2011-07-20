@@ -1,0 +1,10 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{cache 'twitterSearchesRendered', for:'10min'}
+<ul>
+#{list twitterSearch, as:'search'}
+<li><i>${search.text}</i>by ${search.from}, ${search.date.since()}</li>
+#{/list}
+</ul>
+#{/cache}

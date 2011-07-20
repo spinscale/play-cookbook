@@ -1,0 +1,10 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+${flash.registration}
+
+#{form @Application.addUser()}
+Name: <input type="text" name="user.name" /><br />
+Email: <input type="text" name="user.email" /><br />
+<input type="submit" value="Add" />
+#{/form}

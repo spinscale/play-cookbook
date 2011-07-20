@@ -1,0 +1,53 @@
+08:42:54,364 INFO  ~ Starting /Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter7/distributed-jobs/job-app
+08:42:54,398 INFO  ~ Precompiling ...
+08:42:57,472 INFO  ~ Added {QA sa=/127.0.0.1:11211, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+08:42:57,473 INFO  ~ Connected to memcached
+08:42:57,474 INFO  ~ Connection state changed for sun.nio.ch.SelectionKeyImpl@10320399
+08:42:57,479 INFO  ~ Application 'job-app' is now started !
+08:42:57,530 INFO  ~ Listening for HTTP on port 9000 ...
+08:43:02,602 ERROR ~ 
+
+@65pg9ojf8
+@documentation.jobs action not found
+
+Action not found
+Action @documentation.jobs could not be found. Error raised is Controller controllers.@documentation not found
+
+play.exceptions.ActionNotFoundException: Action @documentation.jobs not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:555)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:80)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.@documentation not found
+	... 3 more
+08:43:07,497 INFO  ~ Doing my job of all greatness
+08:43:25,503 INFO  ~ Doing my job of all greatness
+08:43:43,506 INFO  ~ Doing my job of all greatness
+08:44:01,510 INFO  ~ Doing my job of all greatness
+08:44:19,513 INFO  ~ Doing my job of all greatness
+08:44:37,517 INFO  ~ Doing my job of all greatness
+08:44:55,520 INFO  ~ Doing my job of all greatness
+08:45:13,524 INFO  ~ Doing my job of all greatness
+08:45:51,843 INFO  ~ Doing my job of all greatness
+09:17:30,578 INFO  ~ Doing my job of all greatness
+09:17:48,581 INFO  ~ Doing my job of all greatness
+09:18:06,585 INFO  ~ Doing my job of all greatness
+09:18:48,458 INFO  ~ Doing my job of all greatness
+10:10:23,573 INFO  ~ Doing my job of all greatness
+10:10:41,577 INFO  ~ Doing my job of all greatness
+10:10:59,580 INFO  ~ Doing my job of all greatness
+10:11:17,584 INFO  ~ Doing my job of all greatness
+10:11:35,587 INFO  ~ Doing my job of all greatness
+10:11:53,589 INFO  ~ Doing my job of all greatness
+10:12:11,592 INFO  ~ Doing my job of all greatness
+10:12:29,596 INFO  ~ Doing my job of all greatness
+10:12:47,599 INFO  ~ Doing my job of all greatness
+10:13:05,602 INFO  ~ Doing my job of all greatness
+10:13:23,606 INFO  ~ Doing my job of all greatness
+10:13:41,608 INFO  ~ Doing my job of all greatness
+10:13:59,612 INFO  ~ Doing my job of all greatness
+10:14:17,616 INFO  ~ Doing my job of all greatness
+10:14:35,619 INFO  ~ Doing my job of all greatness
+10:14:53,623 INFO  ~ Doing my job of all greatness
+10:15:11,626 INFO  ~ Doing my job of all greatness
+10:15:29,629 INFO  ~ Doing my job of all greatness
+10:15:31,768 INFO  ~ Shut down memcached client

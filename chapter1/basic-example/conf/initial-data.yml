@@ -1,0 +1,9 @@
+User(alr):
+  login: alr
+  password: test
+  email: alr@spinscale.de
+
+Tweet(t1):
+  content: Lets get ready to tweet
+  postedAt: 2010-11-22T08:23:15
+  login: alr

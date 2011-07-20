@@ -1,0 +1,15 @@
+Right(r1):
+  name: Secret
+
+Right(r2):
+  name: TopSecret
+
+User(u1):
+  username: admin
+  password: admin
+  rights: [ r1, r2 ]
+
+User(u2):
+  username: user
+  password: user
+  rights: [r1]

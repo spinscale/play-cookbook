@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springsource.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <!-- comment this out if you use component scanning -->
+    <bean id="encryptionService" class="spring.EncryptionServiceImpl" />
+</beans>

@@ -1,0 +1,47 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<h1>Add new order</h1>
+
+<div>Use an item nomber in the form ${foo}-{0-7}-{quantity}
+<ul>
+<li>foo: Is the itemId, may be arbitrary</li>
+<li>0-7: Is a bitweise representation of the booleans "bulk"(4), "toxic"(1) and "hazardeous"(2)</li>
+<li>quantity: The amount in one delivery</li>
+</ul>
+</div>
+
+#{ifErrors}
+<div class="error">
+    <h2>Oops, please correct these errors</h2>
+    <ul>
+        #{errors}
+            <li>${error}</li>
+        #{/errors}
+    </ul>
+</div>
+#{/ifErrors}
+
+
+#{form @Application.createOrder()}
+<table>
+<tr><td>Item No. 1:</td><td><input type="text" name="myitem" /></td></tr>
+<tr><td></td><td><input type="submit" value="Create Order"></td></tr>
+</table>
+#{/form}
+
+
+<h1>Your existing orders</h1>
+#{list orders, as:'order'}
+<table>
+<h2>Order ${order.id}</h2>
+<tr><th>Id</th><th>Quantity</th><th>toxic</th><th>hazardous</th><th>bulk</th></tr>
+<tr>
+<td>${order.item.itemId}</td>
+<td>${order.item.piecesIncluded}</td>
+<td>${order.item.toxic}</td>
+<td>${order.item.hazardous}</td>
+<td>${order.item.bulk}</td>
+</tr>
+</table>
+#{/list}

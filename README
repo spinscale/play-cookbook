@@ -1,0 +1,69 @@
+Play framework cookbook - Accompanying source code
+Alexander Reelsen, <alexander@reelsen.net>
+
+If you have questions, feel free to mail me anytime.
+
+
+This is the source code for the play framework cookbook, listed in the order of occurances in the book.
+
+chapter1/basic-example
+
+chapter2/annotation-controller
+chapter2/caching-general
+chapter2/digest-auth
+chapter2/pdf
+chapter2/binder
+chapter2/annotation-validation
+chapter2/annotation-rights
+chapter2/json-render-properties
+chapter2/render-rss
+
+chapter3/spring
+chapter3/guice
+chapter3/secure
+chapter3/crud-secure
+chapter3/booking-mongodb
+chapter3/mongodb-image
+
+chapter4/mashup-chart-api
+chapter4/mashup-twitter-search
+chapter4/mashup-api
+chapter4/mashup-json-xml
+
+chapter5/module-intro
+chapter5/registration
+chapter5/events
+chapter5/dependencies
+chapter5/module-model
+chapter5/bytecode-enhancement
+chapter5/stylus
+chapter5/dojo-integration
+
+chapter6/bytecode-enhancement-xml
+chapter6/persistence
+chapter6/messaging
+chapter6/search-solr
+chapter6/caching-implementation
+
+chapter7/distributed-jobs
+chapter7/virtualhost
+chapter7/ssl
+chapter7/monitoring
+chapter7/logging
+chapter7/icinga
+chapter7/munin
+chapter7/apache
+chapter7/nginx
+chapter7/lighttpd
+
+chapter7/test-jenkins
+chapter7/test-calimoucho
+chapter7/configuration-service
+
+
+
+IMPORTANT NOTE:
+
+It has been stripped from all external jar files.
+You have to run "play deps" in all module directories as well as "play build-module".
+Then you should be able to run the application without errors.

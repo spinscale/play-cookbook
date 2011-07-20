@@ -1,0 +1,51 @@
+User(u1):
+  user: admin
+  password: admin
+  isAdmin: true
+
+User(u2):
+  user: user
+  password: user
+  isAdmin: false
+
+Merchant(m1):
+  name: Merchant GmbH
+
+Merchant(m2):
+  name: GoodDeals AS
+
+Product(p1):
+  name: The Jezabels - Dark storm
+  description: Wonderful EP, one song featured in Danny MacAskills "Way back home" biking video on youtube.com
+  merchant: m1
+  createdAt: 2011-01-01
+
+Product(p2):
+  name: Walter Schreifels - Open letter to the scene
+  description: Next cool album by the former Rival Schools singer. Quiet and calm, but guitars.
+  merchant: m1
+  createdAt: 2011-01-02
+
+Product(p3):
+  name: How I met your mother - season 2
+  description: Three DVDs with Mr. Suit-Up Barney Stinson
+  merchant: m1
+  createdAt: 2011-01-03
+
+Product(p4):
+  name: The stamp encyclopedia
+  description: Everything you never wanted to know about stamps. Right in here.
+  merchant: m1
+  createdAt: 2011-01-04
+
+Product(p5):
+  name: Struts Cookbook
+  description: The oldtimer cookbook. If you need this, stop working in IT.
+  merchant: m2
+  createdAt: 2011-01-05
+
+Product(p6):
+  name: Play Cookbook
+  description: The ultimate play cookbook. Features wonderful recipes. Not too delicious on the table.
+  merchant: m2
+  createdAt: 2011-01-06

@@ -1,0 +1,11 @@
+# Application dependencies
+require:
+    - play
+    - customModules -> firstmodule 
+
+repositories:
+    - playCustomModules:
+        type:       local
+        artifact:   "/tmp/play/firstmodule/"
+        contains:
+            - customModules -> *

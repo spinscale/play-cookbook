@@ -1,0 +1,13 @@
+# Application dependencies
+require:
+    - play
+    - play -> crud
+    - csvModules -> csvmodule 0.1
+
+repositories:
+    - playCustomModules:
+        type:       local
+        artifact:   "/Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter6-old/persistence/csv-module"
+        contains:
+            - csvModules -> *
+

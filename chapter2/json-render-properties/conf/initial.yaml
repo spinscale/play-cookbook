@@ -1,0 +1,23 @@
+Address(a1):
+  street: Schlossalle
+  city: Munich
+  zip: 80797
+
+Address(a2):
+  street: Parkstrasse
+  city: Munich
+  zip: 80797
+
+SuperSecretData(s1):
+  secret: bar
+
+User(u1):
+  login: alex
+  password: foo
+  address: a1
+  secrets: s1
+
+User(u2):
+  login: otherone
+  password: blablubb
+  address: a2

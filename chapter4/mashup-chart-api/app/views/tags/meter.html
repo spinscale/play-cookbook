@@ -1,0 +1,12 @@
+%{
+width = _width?:300
+height = _height?:150
+title = _title?:"No title"
+
+encodedData = googlechart.DataEncoder.encode([_value], 100)
+
+out.print('<img src="http://chart.apis.google.com/chart?cht=gm')
+out.print('&chs=' + width + 'x' + height)
+out.print('&chd=e:' + encodedData)
+out.println('&chtt='+title+'">')
+%}

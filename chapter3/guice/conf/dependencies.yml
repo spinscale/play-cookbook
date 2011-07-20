@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+    - play
+    - play -> guice 1.1.1

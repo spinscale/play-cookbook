@@ -1,0 +1,21 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<ul>
+<li>Bound on port: ${play.configuration['http.port']}</li>
+<li>Relative: @{Application.index()}</li>
+<li>Absolute: @@{Application.index()}</li>
+<li>Is secure: ${request.secure}</li>
+<li>Source ip: ${request.remoteAddress}</li>
+<li>Host header: ${request.headers.host}</li>
+<li>X-Forwarded Proto header: ${request.headers['x-forwarded-proto']}</li>
+<li>X-Forwarded-Ssl header: ${request.headers['x-forwarded-ssl']}</li>
+<li>All headers: ${request.headers}</li>
+</ul>
+
+<ul>
+<li>Session state: ${session.state}</li>
+<li>Session #{a @Application.login()}Login#{/a}
+<li>Session #{a @Application.logout()}logout#{/a}</li>
+</ul>
+

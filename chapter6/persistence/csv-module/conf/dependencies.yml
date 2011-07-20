@@ -1,0 +1,5 @@
+self: play -> csv 0.1
+
+require:
+    - net.sf.opencsv -> opencsv 2.0
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/dojo/dojo/dojo.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/dojo/dojo/testdojo.js'}" type="text/javascript" charset="utf-8"></script>
+        #{get 'moreScripts' /}
+        <script type="text/javascript">
+        dojo.require("dojox.wire.Wire")
+        
+        dojo.addOnLoad(function() { console.log("LOADED") })
+        </script>
+    </head>
+    <body>
+        #{doLayout /}
+    </body>
+</html>

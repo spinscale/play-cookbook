@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+    - play
+    - net.java.dev.rome -> rome 1.0.0

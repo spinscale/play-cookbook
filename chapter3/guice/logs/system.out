@@ -1,0 +1,5 @@
+Listening for transport dt_socket at address: 8000
+20:11:32,037 INFO  ~ Starting /Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter3/guice
+20:11:32,040 INFO  ~ Module guice is available (/Users/alexanderreelsen/private/unencrypted/personal/work/play-cookbook/examples/chapter3/guice/modules/guice-1.1.1)
+20:11:32,645 WARN  ~ You're running Play! in DEV mode
+20:11:32,750 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
