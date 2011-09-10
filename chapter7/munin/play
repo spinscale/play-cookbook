@@ -29,7 +29,7 @@ if ( defined($ARGV[0]) and $ARGV[0] eq "config" ) {
 		}
 		$name =~ s/^(.*)\(\).*/$1/;
 		my $classMethod = $name;
-		$name =~ s/\./_/;
+		$name =~ s/\./_/g;
 		
 		print "multigraph runtimes_$name\n";
 		print "graph_title Play Controller runtimes $classMethod\n";
