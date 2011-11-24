@@ -33,7 +33,7 @@ public class ApiPlugin extends PlayPlugin {
 	public static JAXBContext jc;
 	private Gson gson;
 
-	public void onLoad() {
+	public void onApplicationStart() {
 		Logger.info("ApiPlugin loaded");
 		try {
 			List<ApplicationClass> applicationClasses = Play.classes.getAnnotatedClasses(XmlRootElement.class);
